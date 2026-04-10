@@ -57,7 +57,7 @@ interface DebateConfig {
 }
 
 /* ── Constants ─────────────────── */
-const BACKEND_URL = process.env.NEXT_PUBLIC_BACKEND_URL || "http://localhost:8001";
+const BACKEND_URL = process.env.NEXT_PUBLIC_BACKEND_URL || "https://nexus-ai-debate-system.onrender.com";
 
 const MODELS = [
   { id: "gemini-2.0-flash", name: "Gemini 2.0 Flash", provider: "google" },
