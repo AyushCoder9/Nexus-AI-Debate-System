@@ -14,7 +14,13 @@ import {
   Sparkles,
   ArrowRight,
   Layers,
-  Activity
+  Activity,
+  Code2,
+  Paintbrush,
+  Terminal,
+  LineChart,
+  Boxes,
+  Database
 } from "lucide-react";
 import { useRef } from "react";
 
@@ -87,8 +93,16 @@ export default function LandingPage() {
     { name: "Next.js 15", icon: <Globe2 className="w-5 h-5" /> },
     { name: "FastAPI", icon: <Zap className="w-5 h-5" /> },
     { name: "LangChain", icon: <Layers className="w-5 h-5" /> },
+    { name: "Python 3.10+", icon: <Terminal className="w-5 h-5" /> },
+    { name: "TypeScript", icon: <Code2 className="w-5 h-5" /> },
+    { name: "React 19", icon: <Boxes className="w-5 h-5" /> },
+    { name: "Tailwind CSS", icon: <Paintbrush className="w-5 h-5" /> },
     { name: "SSE Streaming", icon: <Activity className="w-5 h-5" /> },
-    { name: "Groq LPU", icon: <Cpu className="w-5 h-5" /> },
+    { name: "Framer Motion", icon: <Sparkles className="w-5 h-5" /> },
+    { name: "Recharts", icon: <LineChart className="w-5 h-5" /> },
+    { name: "Groq Llama 3", icon: <Cpu className="w-5 h-5" /> },
+    { name: "Google Gemini 2", icon: <BrainCircuit className="w-5 h-5" /> },
+    { name: "OpenAI GPT-4", icon: <Database className="w-5 h-5" /> },
   ];
 
   return (
