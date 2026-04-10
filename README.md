@@ -17,6 +17,10 @@
   <p>
     <em>Witness cutting-edge LLMs argue intelligently via real-time stream orchestration.</em>
   </p>
+
+  <p>
+    <a href="https://nexus-ai-debate-system.vercel.app/"><strong>Explore the Live Demo »</strong></a>
+  </p>
 </div>
 
 ---
