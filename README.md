@@ -41,10 +41,6 @@ Built with an unapologetic focus on extreme **UI polish**, **real-time capabilit
 
 ## 🏗️ Technical Architecture
 
-<div align="center">
-  <img src="https://via.placeholder.com/800x400/0a0a0b/6366f1?text=Nexus+System+Architecture" alt="Architecture Diagram" />
-</div>
-
 Nexus separates concerns entirely via a hardened API boundary, utilizing Next.js for client delivery and FastAPI for heavy AI processing.
 
 ```mermaid
@@ -137,9 +133,9 @@ npm run dev
 
 ---
 
-## 👔 Institutional / Recruiter Note
+## 💡 Engineering Highlights
 
-This repository emphasizes high-tier architectural decisions designed to impress. Specifically:
+This repository emphasizes high-tier architectural decisions designed for scalable performance and maintainability:
 - **Streaming over REST**: Overcoming timeout boundaries and improving perceived latency through standard Unix SSE protocols instead of heavy Websockets.
 - **Isolating Intelligence**: Deep decoupling of the prompt engineering and LangChain graph logic inside `backend/agents/debate_engine.py`.
 - **Advanced State Management**: Leveraging complex `useRef` and functional React arrays `useState<Message[]>` for asynchronous, race-condition-free UI rendering.
